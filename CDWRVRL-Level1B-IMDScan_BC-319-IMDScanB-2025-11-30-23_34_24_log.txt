@@ -1,0 +1,414 @@
+=== FILE INFO ===
+<class 'netCDF4.Dataset'>
+root group (NETCDF3_CLASSIC data model, file format NETCDF3):
+    Title: Data from SSPA based Doppler Weather Radar at C-Band
+    Institution: Jointly owned by Indian Meteorological Department and Indian Space Research Organization
+    Comment: Data in this file has been/not been calibrated, corrected, or had any quality control performed, use with caution.
+    Instrument_name: CDWRVRL
+    platform_is_mobile: FALSE
+    location_description: CDWRVLR is located at Veravali, Mumbai, Maharashtra, India
+    Data_level_info: L1B
+    TaskName: IMDScanB
+    SchName: IMDScan_BC
+    SchCnt: 319
+    StationID: C8056
+    StationName: CDWRVRL
+    StationLatitude: 19.1342
+    StationLongitude: 72.8762
+    StationAltitude: 110.0000
+    RadarOperatingmode: RealTime
+    RadarCalibrationMode: -
+    ModeofOperation: STAR-Dual
+    Transmission: On
+    CoverageRange: 250
+    PRF-1: 551
+    PRF-2: 459
+    Coded_Uncoded: Coded
+    Decimation_Rate: 2.00
+    base_date: 30
+    time_coverage_start: 2025-11-30_23:34:24_UTC
+    time_coverage_end: 2025-11-30_23:39:51_UTC
+    Pulse1_selection: On
+    Pulse2_selection: On
+    Pulse3_selection: On
+    IF1_WaveFormType: Coded-NLFM
+    IF2_WaveFormType: Coded-NLFM
+    IF3_WaveFormType: UnCoded-CW
+    RF1_frequency: 5.603250
+    RF2_frequency: 5.615750
+    RF3_frequency: 5.626500
+    Long_Pulse_Width: 125.00
+    Mid_Pulse_Width: 16.00
+    Short_Pulse_Width: 1.00
+    Delay_Bw_Guard_RF1: 0.40
+    Delay_Bw_RF1_RF2: 1.00
+    Delay_Bw_RF2_RF3: 1.00
+    Delay_Bw_RF3_Guard: 1.80
+    VolumeCoveragePatternName: 1 elevation, 1 scan
+    VolumeCoveragePattern: Hemispheric Pattern
+    HorizontalBeamWidthInDegrees: 1
+    H_RF1_Transmitter_Path_Loss: -1.15
+    H_RF2_Transmitter_Path_Loss: -1.17
+    H_RF3_Transmitter_Path_Loss: -1.15
+    V_RF1_Transmitter_Path_Loss: -1.30
+    V_RF2_Transmitter_Path_Loss: -1.31
+    V_RF3_Transmitter_Path_Loss: -1.28
+    H_RF1_Transmitter_Path_Phase: -38.67
+    H_RF2_Transmitter_Path_Phase: 94.64
+    H_RF3_Transmitter_Path_Phase: -99.88
+    V_RF1_Transmitter_Path_Phase: 3.03
+    V_RF2_Transmitter_Path_Phase: 129.51
+    V_RF3_Transmitter_Path_Phase: -71.49
+    H_RF1_Radome_Loss: -0.20
+    H_RF2_Radome_Loss: -0.20
+    H_RF3_Radome_Loss: -0.20
+    V_RF1_Radome_Loss: -0.20
+    V_RF2_Radome_Loss: -0.20
+    V_RF3_Radome_Loss: -0.20
+    H_Tx_Monitoring_path_loss: -0.20
+    V_Tx_Monitoring_path_loss: -0.20
+    H_RF1_Antenna_Gain: 44.40
+    H_RF2_Antenna_Gain: 44.40
+    H_RF3_Antenna_Gain: 44.40
+    V_RF1_Antenna_Gain: 44.10
+    V_RF2_Antenna_Gain: 44.10
+    V_RF3_Antenna_Gain: 44.10
+    H_RF1_BeamWidth: 1.00
+    H_RF2_BeamWidth: 1.00
+    H_RF3_BeamWidth: 1.00
+    V_RF1_BeamWidth: 1.00
+    V_RF2_BeamWidth: 1.00
+    V_RF3_BeamWidth: 1.00
+    Antenna_SLL_H: 30.23
+    Antenna_SLL_V: 30.99
+    Crosspollevel_H: 35.67
+    Crosspollevel_V: 35.97
+    Pulse_compression_SLL_for_Low_and_High_pulsewidths: 35.00
+    Pulse_compression_Gain_for_Low_and_High_pulse_widths: 0.50
+    Solar_Flux_Density: 114.86
+    Scan_Mode: VolumeScan
+    Azimuth_RPM: 2.000000
+    Elevation_RPM: -
+    Scan_Count: 10
+    Azimuth_Start_Angle: 193.63
+    Azimuth_Stop_Angle: 192.63
+    Azimuth_Step_Angle: 1.00
+    Elevation_Start_Angle: 0.20
+    Elevation_Stop_Angle: 9.20
+    Elevation_Step_Angle: 1.00
+    Azimuth_Encoder_Bias: 337.50
+    Elevation_Encoder_Bias: 287.47
+    RFBlankingSel: Off
+    RFBlank_Count: 0
+    HW_Prelimit_UP: 92.500000
+    HW_Prelimit_DN: -2.500000
+    HW_Finallimit_UP: 93.500000
+    HW_Finallimit_DN: -3.500000
+    Ray_missing: -
+    H-RF1_receiver_Path_Loss: -3.12
+    H-RF2_receiver_Path_Loss: -3.11
+    H-RF3_receiver_Path_Loss: -3.17
+    V-RF1_receiver_Path_Loss: -3.74
+    V-RF2_receiver_Path_Loss: -3.70
+    V-RF3_receiver_Path_Loss: -3.72
+    H-RF1_receiver_Path_Phase: 74.62
+    H-RF2_receiver_Path_Phase: -179.28
+    H-RF3_receiver_Path_Phase: -37.15
+    V-RF1_receiver_Path_Phase: -39.46
+    V-RF2_receiver_Path_Phase: 46.02
+    V-RF3_receiver_Path_Phase: 70.19
+    H-RF1_Noise_figure: 4.00
+    H-RF2_Noise_figure: 4.00
+    H-RF3_Noise_figure: 4.00
+    V-RF1_Noise_figure: 4.00
+    V-RF2_Noise_figure: 4.00
+    V-RF3_Noise_figure: 4.00
+    Noise_OnOff_Selection: Off
+    EffectiveNoise: 30.00
+    Horizontal_FrontEnd_Calibration_Attuenation_Range1: 0.00
+    Horizontal_FrontEnd_Calibration_Attuenation_Range2: 0.00
+    Horizontal_FrontEnd_Calibration_Attuenation_Range3: 0.00
+    Vertical_FrontEnd_Calibration_Attuenation_Range1: 0.00
+    Vertical_FrontEnd_Calibration_Attuenation_Range2: 0.00
+    Vertical_FrontEnd_Calibration_Attuenation_Range3: 0.00
+    Horizontal_FrontEnd_Calibration_Attuenation1_Value1: 3.00
+    Horizontal_FrontEnd_Calibration_Attuenation1_Value2: 3.00
+    Horizontal_FrontEnd_Calibration_Attuenation1_Value3: 3.00
+    Horizontal_FrontEnd_Calibration_Attuenation1_Value4: 3.00
+    Vertical_FrontEnd_Calibration_Attuenation1_Value1: 3.00
+    Vertical_FrontEnd_Calibration_Attuenation1_Value2: 3.00
+    Vertical_FrontEnd_Calibration_Attuenation1_Value3: 3.00
+    Vertical_FrontEnd_Calibration_Attuenation1_Value4: 3.00
+    Horizontal_FrontEnd_Calibration_Attuenation2_Value: 9.50
+    Vertical_FrontEnd_Calibration_Attuenation2_Value: 9.50
+    RF1_ADC_Switching_threshold_HH: -39.00
+    RF2_ADC_Switching_threshold_HH: -39.00
+    RF3_ADC_Switching_threshold_HH: -39.00
+    RF1_ADC_Switching_threshold_HL: -38.50
+    RF2_ADC_Switching_threshold_HL: -38.50
+    RF3_ADC_Switching_threshold_HL: -38.50
+    RF1_ADC_Switching_threshold_VH: -39.00
+    RF2_ADC_Switching_threshold_VH: -39.00
+    RF3_ADC_Switching_threshold_VH: -39.00
+    RF1_ADC_Switching_threshold_VL: -38.50
+    RF2_ADC_Switching_threshold_VL: -38.50
+    RF3_ADC_Switching_threshold_VL: -38.50
+    RF1_H_HighGain: C6E5AA6A
+    RF2_H_HighGain: E32E649A
+    RF3_H_HighGain: FFFFFFFF
+    RF1_V_HighGain: 1FB37BE
+    RF2_V_HighGain: 20FF0BA
+    RF3_V_HighGain: 24908CB
+    RF1_H_LowGain: B84402F2
+    RF2_H_LowGain: D4BBD498
+    RF3_H_LowGain: FBA4DB7B
+    RF1_V_LowGain: 1DDA5A0
+    RF2_V_LowGain: 20488B8
+    RF3_V_LowGain: 23B9421
+    RF1_H_HighPhase: 72D0BD00D0B7
+    RF2_H_HighPhase: 6CCAF95CF153
+    RF3_H_HighPhase: 6760C747BEC7
+    RF1_V_HighPhase: F450AA65188
+    RF2_V_HighPhase: 7B81C13911F
+    RF3_V_HighPhase: 4382160342E
+    RF1_H_LowPhase: 0
+    RF2_H_LowPhase: 0
+    RF3_H_LowPhase: 0
+    RF1_V_LowPhase: 0
+    RF2_V_LowPhase: 0
+    RF3_V_LowPhase: 0
+    Radar_measured_sky_noise: 0.50
+    Radar_measured_cold_noise: 0.50
+    Radar_measured_hot_noise: 0.50
+    Receiver_Bandwidth(MHz): 1.40
+    AtmosphericLoss: 0.00
+    ProcessingTechnique: Time-Domain Pulse-Pair
+    DTP_1: 17
+    DTP_2: 20
+    Clutter_Filter: IIR_HP (0.89 m/s)
+    Filter_Order: 5
+    Filter_NotchWidth: 4
+    Filter_Attuenation: 40 dB
+    PulseWidth: 146.20
+    ElevationAngle: 9.1
+    Range_Bin_Resolution: 150.000000
+    IF3_Num_Range_Bins: 40
+    IF2_Num_Range_Bins: 153
+    IF1_Num_Range_Bins: 1466
+    SSPA_H_Temperature: 0.000000
+    SSPA_V_Temperature: 0.000000
+    FFT_Point_Selection: -
+    FFT_Windowing_Type: -
+    Shortpulse_StartRange_Selection: 1.000000
+    Shortpulse_StopRange_Selection: 7.000000
+    Midpulse_StartRange_Selection: 7.000000
+    Midpulse_StopRange_Selection: 30.000000
+    Longpulse_StartRange_Selection: 30.000000
+    Longpulse_StopRange_Selection: 250.000000
+    SpeckleFilter_1D: Disable
+    SpeckleFilter_2D: Disable
+    SQIThresholdValue: 0.45
+    RhoThresholdValue: -
+    CCORThresholdValue: -15.00
+    SIGThresholdValue: -
+    LOGThresholdValue: 3.00
+    SNRthresholdValue: -
+    LongPulse_Compression_gain: -20.18
+    MidPulse_Compression_gain: -9.03
+    ShortPulse_Compression_gain: 0.00
+    Horizontal_PowerOffset: 199.86
+    Vertical_PowerOffset: 199.86
+    Horizontal_RF1Radarconstant: -9.13
+    Horizontal_RF2Radarconstant: -16.26
+    Horizontal_RF3Radarconstant: -16.26
+    Vertical_RF1Radarconstant: -10.52
+    Vertical_RF2Radarconstant: -17.68
+    Vertical_RF3Radarconstant: -33.01
+    Horizontal_RF1Noisefloor: -130.00
+    Horizontal_RF2Noisefloor: -120.00
+    Horizontal_RF3Noisefloor: -110.00
+    Vertical_RF1Noisefloor: -130.00
+    Vertical_RF2Noisefloor: -120.00
+    Vertical_RF3Noisefloor: -110.00
+    Horizontal_RF1PowerOffset: 0.00
+    Horizontal_RF2PowerOffset: 0.00
+    Horizontal_RF3PowerOffset: 0.00
+    Vertical_RF1PowerOffset: 1.31
+    Vertical_RF2PowerOffset: 0.81
+    Vertical_RF3PowerOffset: 0.65
+    Horizontal_RF1_VelocityOffset: 0.00
+    Horizontal_RF2_VelocityOffset: 0.00
+    Horizontal_RF3_VelocityOffset: 0.00
+    Vertical_RF1_VelocityOffset: 0.00
+    Vertical_RF2_VelocityOffset: 0.00
+    Vertical_RF3_VelocityOffset: 0.00
+    Horizontal_RF1_SpectralWidthOffset: 0.00
+    Horizontal_RF2_SpectralWidthOffset: 0.00
+    Horizontal_RF3_SpectralWidthOffset: 0.00
+    Vertical_RF1_SpectralWidthOffset: 0.00
+    Vertical_RF2_SpectralWidthOffset: 0.00
+    Vertical_RF3_SpectralWidthOffset: 0.00
+    RF1_PhiDPOffset: -274.00
+    RF2_PhiDPOffset: -225.00
+    RF3_PhiDPOffset: -182.00
+    RF1_ZDROffset: 0.00
+    RF2_ZDROffset: 0.00
+    RF3_ZDROffset: 0.00
+    LDR_Bias: 0.00
+    ZDR_Bias: 0.00
+    Zmin: 0.00
+    Zmax: 60.00
+    Vmin: -60.00
+    Vmax: 60.00
+    Swmin: 0.00
+    Swmax: 10.00
+    Zdrmin: -8.00
+    Zdrmax: 5.00
+    PhiDPmin: -180.00
+    PhiDPmax: 180.00
+    CCmin: 0.00
+    CCmax: 1.00
+    Netcdf_Resolution: 150 m
+    Bit_Selection: Float
+    Received_Power_Horizontal: Enable
+    Received_Power_Vertical: Disable
+    Reflectivity_Horizontal: Enable
+    Reflectivity_Vertical: Enable
+    Velocity_Horizontal: Enable
+    Velocity_Vertical: Disable
+    SpectralWidth_Horizontal: Enable
+    SpectralWidth_Vertical: Disable
+    Unfiltered_Received_Power_Horizontal: Disable
+    Unfiltered_Received_Power_Vertical: Disable
+    Differential_Reflectivity: Enable
+    Differential_Phase_Propagation: Enable
+    Correlation_coeffient: Enable
+    Signal_Quality_Horizontal: Disable
+    Signal_Quality_Vertical: Disable
+    Signal_to_Noise_Ratio_Horizontal: Disable
+    Signal_to_Noise_Ratio_Vertical: Disable
+    Clutter_Correction_Ratio_Horizontal: Disable
+    Clutter_Correction_Ratio_Vertical: Disable
+    Linear_Depolarization_Ratio: Disable
+    LOG_Horizontal: Disable
+    LOG_Vertical: Disable
+    SIG_Horizontal: Disable
+    SIG_Vertical: Disable
+    H-Target1_Bite_OnOff: Off
+    H-Target2_Bite_OnOff: Off
+    V-Target1_Bite_OnOff: Off
+    V-Target2_Bite_OnOff: Off
+    dimensions(sizes): Elevation_Count(10), Azimuth_Count(360), Number_of_Range_Bins(1659), AngleBufferSize(10), Blanking_AngleBufferSize(0), Filter_Coeff_Len(12)
+    variables(dimensions): float32 RxPower_Horizontal(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 Reflectivity_Horizontal(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 Reflectivity_Vertical(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 Velocity_Horizontal(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 ZDR(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 PHIDP(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 RHO(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float32 SW_Horizontal(Elevation_Count, Azimuth_Count, Number_of_Range_Bins), float64 Time_Info(Elevation_Count, Azimuth_Count), float32 Elevation_Info(Elevation_Count, Azimuth_Count), float32 Azimuth_Info(Elevation_Count, Azimuth_Count), float32 Distance_Info(Number_of_Range_Bins), int32 NumRadials_Info(Elevation_Count), int32 NumGates_Info(Elevation_Count), float32 ServoAngleBuf(AngleBufferSize), float32 BlankingStartAngle(Blanking_AngleBufferSize), float32 BlankingStopAngle(Blanking_AngleBufferSize), float32 Filter_Co-efficents(Filter_Coeff_Len)
+    groups: 
+
+=== DIMENSIONS ===
+"<class 'netCDF4.Dimension'>": name = 'Elevation_Count', size = 10
+"<class 'netCDF4.Dimension'>": name = 'Azimuth_Count', size = 360
+"<class 'netCDF4.Dimension'>": name = 'Number_of_Range_Bins', size = 1659
+"<class 'netCDF4.Dimension'>": name = 'AngleBufferSize', size = 10
+"<class 'netCDF4.Dimension'>" (unlimited): name = 'Blanking_AngleBufferSize', size = 0
+"<class 'netCDF4.Dimension'>": name = 'Filter_Coeff_Len', size = 12
+
+=== VARIABLES ===
+
+Variable: RxPower_Horizontal
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: dBm
+
+Variable: Reflectivity_Horizontal
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: dBZ
+
+Variable: Reflectivity_Vertical
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: dBZ
+
+Variable: Velocity_Horizontal
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: m/s
+
+Variable: ZDR
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: dB
+
+Variable: PHIDP
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: Degree
+
+Variable: RHO
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: unitless
+
+Variable: SW_Horizontal
+  Dimensions: ('Elevation_Count', 'Azimuth_Count', 'Number_of_Range_Bins')
+  Shape: (10, 360, 1659)
+  Data type: float32
+  Units: m/s
+
+Variable: Time_Info
+  Dimensions: ('Elevation_Count', 'Azimuth_Count')
+  Shape: (10, 360)
+  Data type: float64
+
+Variable: Elevation_Info
+  Dimensions: ('Elevation_Count', 'Azimuth_Count')
+  Shape: (10, 360)
+  Data type: float32
+
+Variable: Azimuth_Info
+  Dimensions: ('Elevation_Count', 'Azimuth_Count')
+  Shape: (10, 360)
+  Data type: float32
+
+Variable: Distance_Info
+  Dimensions: ('Number_of_Range_Bins',)
+  Shape: (1659,)
+  Data type: float32
+
+Variable: NumRadials_Info
+  Dimensions: ('Elevation_Count',)
+  Shape: (10,)
+  Data type: int32
+
+Variable: NumGates_Info
+  Dimensions: ('Elevation_Count',)
+  Shape: (10,)
+  Data type: int32
+
+Variable: ServoAngleBuf
+  Dimensions: ('AngleBufferSize',)
+  Shape: (10,)
+  Data type: float32
+  Units: Degree
+
+Variable: BlankingStartAngle
+  Dimensions: ('Blanking_AngleBufferSize',)
+  Shape: (0,)
+  Data type: float32
+  Units: Degree
+
+Variable: BlankingStopAngle
+  Dimensions: ('Blanking_AngleBufferSize',)
+  Shape: (0,)
+  Data type: float32
+  Units: Degree
+
+Variable: Filter_Co-efficents
+  Dimensions: ('Filter_Coeff_Len',)
+  Shape: (12,)
+  Data type: float32
